@@ -1,0 +1,21 @@
+import time
+#t=time.localtime()
+print("TEMPORIZADOR: BY JHONY")
+
+aux=0
+
+hora=input("Ingrese la hora en la que quiere iniciar:  ")
+t1=int(hora)
+minutos=input("Ingrese los minutos en quire iniciar:   ")
+t2=int(minutos)
+segundos=input("Ingrese los segundos en quire iniciar:   ")
+t3=int(segundos)
+while (t1==0,t2==0,t3==0 ):
+    
+    t3=t3-1
+    t2=t2-1
+    t1=t1-1
+    #t=time.localtime()
+    
+    print(t1,":",t2,":",t3)
+    time.sleep(1)
